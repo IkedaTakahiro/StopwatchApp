@@ -14,6 +14,7 @@
 		069AB4051C14C81C00E8521E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069AB4041C14C81C00E8521E /* Images.xcassets */; };
 		069AB4081C14C81C00E8521E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069AB4061C14C81C00E8521E /* LaunchScreen.xib */; };
 		069AB4141C14C81C00E8521E /* StopwatchAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069AB4131C14C81C00E8521E /* StopwatchAppTests.m */; };
+		06ACCFFD1C1A358000201B1D /* stpwtchiph5.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ACCFFC1C1A358000201B1D /* stpwtchiph5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		069AB40D1C14C81C00E8521E /* StopwatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		069AB4121C14C81C00E8521E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069AB4131C14C81C00E8521E /* StopwatchAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchAppTests.m; sourceTree = "<group>"; };
+		06ACCFFC1C1A358000201B1D /* stpwtchiph5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stpwtchiph5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		069AB3F71C14C81C00E8521E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06ACCFFC1C1A358000201B1D /* stpwtchiph5.png */,
 				069AB3F81C14C81C00E8521E /* Info.plist */,
 				069AB3F91C14C81C00E8521E /* main.m */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				069AB4031C14C81C00E8521E /* Main.storyboard in Resources */,
+				06ACCFFD1C1A358000201B1D /* stpwtchiph5.png in Resources */,
 				069AB4081C14C81C00E8521E /* LaunchScreen.xib in Resources */,
 				069AB4051C14C81C00E8521E /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				069AB4191C14C81C00E8521E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		069AB41A1C14C81C00E8521E /* Build configuration list for PBXNativeTarget "StopwatchAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				069AB41C1C14C81C00E8521E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
